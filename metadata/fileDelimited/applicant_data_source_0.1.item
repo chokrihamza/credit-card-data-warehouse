@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_SXzRcWthEe2EhewQtNbxbQ" name="applicant_data_source" dataPackage="_SXzRcmthEe2EhewQtNbxbQ" Server="Localhost 127.0.0.1" FilePath="C:/Users/Chokri Hamza/Desktop/data_warehouse_project_Approval Prediction/record_credit_card_approval/application_record.csv" Encoding="US-ASCII" FieldSeparatorValue="&quot;,&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" FieldSeparatorType="Comma"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_SXzRcmthEe2EhewQtNbxbQ" name="default" dataManager="_SXzRcWthEe2EhewQtNbxbQ">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_SXzRc2thEe2EhewQtNbxbQ" id="_-pfTwGtgEe2EhewQtNbxbQ" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_SXzRdGthEe2EhewQtNbxbQ" label="ID" length="7" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_SXzRdWthEe2EhewQtNbxbQ" label="CODE_GENDER" length="1" talendType="id_Character" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_SXzRdmthEe2EhewQtNbxbQ" label="FLAG_OWN_CAR" length="1" talendType="id_Character" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_SXzRd2thEe2EhewQtNbxbQ" label="FLAG_OWN_REALTY" length="1" talendType="id_Character" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_SXzReGthEe2EhewQtNbxbQ" label="CNT_CHILDREN" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_SXzReWthEe2EhewQtNbxbQ" label="AMT_INCOME_TOTAL" length="8" precision="2" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_SXzRemthEe2EhewQtNbxbQ" label="NAME_INCOME_TYPE" length="20" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_SXzRe2thEe2EhewQtNbxbQ" label="NAME_EDUCATION_TYPE" length="29" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_SXzRfGthEe2EhewQtNbxbQ" label="NAME_FAMILY_STATUS" length="20" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_SXzRfWthEe2EhewQtNbxbQ" label="NAME_HOUSING_TYPE" length="17" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_SXzRfmthEe2EhewQtNbxbQ" label="DAYS_BIRTH" length="6" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_SXzRf2thEe2EhewQtNbxbQ" label="DAYS_EMPLOYED" length="6" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_SXzRgGthEe2EhewQtNbxbQ" label="FLAG_MOBIL" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_SXzRgWthEe2EhewQtNbxbQ" label="FLAG_WORK_PHONE" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_SXzRgmthEe2EhewQtNbxbQ" label="FLAG_PHONE" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_SXzRg2thEe2EhewQtNbxbQ" label="FLAG_EMAIL" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_SXzRhGthEe2EhewQtNbxbQ" label="OCCUPATION_TYPE" length="14" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_SXzRhWthEe2EhewQtNbxbQ" label="CNT_FAM_MEMBERS" length="3" precision="2" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>
